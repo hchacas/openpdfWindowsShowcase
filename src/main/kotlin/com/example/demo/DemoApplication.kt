@@ -20,7 +20,7 @@ class DemoApplication
 @Suppress("SpreadOperator")
 fun main(args: Array<String>) {
 	try {
-		val compare = false
+		val compare = true
 		if (compare) {
 			val outputFile = ByteArrayOutputStream()
 			outputFile.use {
