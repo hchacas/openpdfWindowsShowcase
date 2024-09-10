@@ -1,0 +1,74 @@
+[class^="cb-"], [class*=" cb-"] {
+    display: inline-block;
+    border: 1px solid #7a7a7a;
+    background-color: #ffffff;
+}
+
+[class^="cb-checked"], [class*=" cb-checked"] {
+    background-color: #0078d6;
+    border: 0;
+    color: #ffffff;
+}
+
+.cb .icon-checkmark {
+    display: inline-block;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.cb-small {
+    width: 11px;
+    height: 11px;
+    margin-right: 8px;
+    padding: 0;
+}
+
+.cb-checked-small {
+    width: 12px;
+    height: 12px;
+    line-height: 1px;
+    margin-right: 8px;
+}
+
+.cb-checked-small {
+    width: 12px;
+    height: 12px;
+    line-height: 1px;
+    margin-right: 8px;
+}
+
+.cb-checked-small .icon-checkmark {
+    font-size: 12px;
+}
+
+.cb-medium {
+    width: 19px;
+    height: 19px;
+    margin-right: 8px;
+    padding: 0;
+}
+
+.cb-checked-medium {
+    width: 20px;
+    height: 20px;
+    line-height: 1px;
+    margin-right: 8px;
+}
+
+.cb-checked-medium .icon-checkmark {
+    font-size: 20px;
+}
+
+.small-label-cb {
+    vertical-align: middle;
+    line-height: 15px;
+    margin-top: 3px;
+    display: inline-block;
+}
+
+.medium-label-cb {
+    vertical-align: middle;
+    line-height: 30px;
+    display: inline-block;
+}

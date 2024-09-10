@@ -1,0 +1,389 @@
+#footer {
+    position: running(footer);
+    margin-left: 91px;
+    width: 680px;
+}
+
+@page {
+    padding-top: 22px;
+    padding-left: 91px;
+    padding-right: 43px;
+    margin: 0 0 110px;
+
+    @bottom-center {
+        content: element(footer);
+    }
+}
+
+body {
+    margin: 0;
+}
+
+.page-break {
+    page-break-after: always;
+}
+
+.next-page {
+    page-break-before: always
+}
+
+[class$="-text"], [class*="-text"] {
+    font-family: "MB Corpo S Text WEB", "Noto Sans AR", "Noto Sans JP", "Noto Sans HK", "Noto Sans KR", "Noto Sans SC", "Noto Sans TC", "Noto Sans TH", sans-serif;
+    font-style: normal;
+    line-height: 1.2;
+}
+
+.small-text {
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.small-text-bold {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.medium-text-bold {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.medium-text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.large-text {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.page-data {
+    margin-top: 10px;
+    float: right;
+}
+
+#current-page-placeholder::before {
+    content: counter(page);
+}
+
+#total-pages-placeholder::before {
+    content: counter(pages);
+}
+
+.logo-container {
+    margin-left: 248px;
+    margin-right: 248px;
+}
+
+.logo {
+    padding: 28px;
+    width: 76px;
+    height: 76px;
+}
+
+.other-data {
+    width: 135px;
+    display: inline-block;
+    float: right;
+}
+
+.other-data .title-name {
+    margin-bottom: 8px;
+}
+
+.model-data {
+    margin-top: 59px;
+    width: 470px;
+    display: block;
+}
+
+.short-validity {
+    margin-bottom: 8px
+}
+
+.cl-data {
+    width: 239px;
+    display: inline-block;
+}
+
+.actions-s-data {
+    width: 180px;
+    display: block;
+}
+
+.cl-title {
+    margin: 16px 0 8px 0;
+    width: 470px;
+    font-weight: 700;
+}
+
+.order-data-table {
+    margin-top: 24px;
+}
+
+.table-title {
+    width: 656px;
+}
+
+.some-more-data-table {
+    margin-top: 24px;
+}
+
+.table-content {
+    margin-top: 8px;
+    width: 656px;
+}
+
+.content-cell {
+    display: inline-block;
+    width: 114px;
+}
+
+.content-row {
+    margin-bottom: 12px;
+}
+
+.content-cell-with-margin {
+    margin-right: 62px;
+}
+
+.customer-concern-detail {
+    margin-top: 40px;
+}
+
+.cell-head, .cell-content {
+    margin-top: 3px
+}
+
+.empty-element:after {
+    content: "\200b";
+}
+
+.separator {
+    margin: 12px 0;
+    display: block;
+    border: 0;
+    border-top: 0.5px solid #7A7A7A;
+    height: 0.5px;
+}
+
+.separator-standard {
+    width: 600px;
+}
+
+.separator-full-width {
+    width: 658px !important;
+}
+
+.vehicle-picture {
+    float: right;
+    margin-top: 10px;
+    width: 135px;
+    height: 105px;
+    border: 1px solid #ccc;
+    margin-left: 145px;
+}
+
+.vehicle-picture img {
+    width: 100%;
+}
+
+.legend {
+    width: 656px;
+    border: 1px solid #7A7A7A;
+    margin-bottom: 48px;
+    page-break-inside: avoid;
+}
+
+.legend-inner {
+    padding: 16px 16px;
+}
+
+.legend-row {
+    display: table;
+    margin-bottom: 12px;
+}
+
+.legend-column {
+    display: table-cell;
+    vertical-align: middle;
+    width: 206px;
+    min-height: 16px;
+}
+
+.legend-element {
+    display: table;
+}
+
+.legend-element span {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.legend-icon {
+    padding-right: 8px;
+    width: 10px;
+}
+
+.protocol-available {
+    margin-bottom: 32.5px;
+}
+
+.reason-determined {
+    margin-bottom: 12px;
+}
+
+.cp-short-description {
+    display: inline-block;
+    width: 345px;
+}
+
+.example-cp-short-description {
+    display: inline-block;
+    margin-left: 16px;
+    width: 200px;
+}
+
+.example-no-ok-state {
+    display: inline-block;
+    margin-left: 130px;
+    width: 200px;
+    text-align: right;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+.nok-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+}
+
+.category {
+    page-break-inside: avoid;
+    display: block;
+    margin-top: 24px;
+}
+
+.additional-information {
+    margin-left: 129px;
+    display: inline-block;
+    width: 499px;
+}
+
+.icon-wrapper {
+    width: 11px;
+    height: 11px;
+}
+
+@page cp-table-page {
+    @top-center {
+        content: element(header);
+    }
+
+    padding-top: 120px;
+}
+
+cp-table-page {
+    page: cp-table-page;
+    display: block;
+}
+
+#table-header {
+    position: running(header);
+    display: block;
+    border: 1px solid #7A7A7A;
+    margin-top: 55px;
+    padding: 12px;
+    margin-left: 91px;
+    width: 632px;
+}
+
+.falsy-state, .ok-state {
+    display: inline-block;
+    float: right;
+    margin-top: 12px;
+    margin-right: 37px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+}
+
+.ok-state {
+    font-size: 25px;
+}
+
+.cp-icons {
+    margin-left: 32px;
+    margin-right: 32px;
+    width: 32px;
+}
+
+.cp-icons > span {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+}
+
+.complaint-table-container {
+    margin-top: 8px;
+    width: 100%;
+}
+
+.complaint-table {
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.complaint-table-cell {
+    width: 110px;
+    padding: 0 6px 4px 6px;
+    border-right: 1px solid #7A7A7A;
+    border-bottom: 1px solid #7A7A7A;
+    text-align: center;
+    margin: 0;
+}
+
+.complaint-table tr .complaint-table-cell:last-child {
+    border-right: 0;
+}
+
+.cp-long-description {
+    width: 300px;
+}
+
+.complaint-table-cell span {
+    display: inline-block;
+    margin-top: 3.5px;
+}
+
+.additional-information .separator {
+    width: 523px;
+}
+
+.cp {
+    margin-left: 13px;
+}
+
+.photo-container {
+    border: 1px solid grey;
+    text-align: center;
+    padding: 4px 4px 0 4px;
+}
+
+.photo {
+    max-width: 650px;
+    max-height: 408px;
+}
+
+.creation-date-time-text {
+    text-align: right;
+}
