@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'MB Corpo S Text WEB';
+    /* Note: No trailing format tag is allowed. */
+    src: url(../fonts/MBCorpoSText-Light-Web.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans AR';
+    /* Note: No trailing format tag is allowed. */
+    src: url(../fonts/NotoSans-ar.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans JP';
+    /* Note: No trailing format tag is allowed. */
+    src: url(../fonts/NotoSans-jp.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans HK';
+    /* Note: No trailing format tag is allowed. */
+    src: url(../fonts/NotoSans-hk.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    /* Note: No trailing format tag is allowed. */
+    src: url(../fonts/NotoSans-kr.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans SC';
+    /* Note: No trailing format tag is allowed. */
+    src: url(../fonts/NotoSans-sc.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans TC';
+    /* Note: No trailing format tag is allowed. */
+    src: url(../fonts/NotoSans-tc.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
